@@ -1,0 +1,6 @@
+/lib/x86_64-linux-gnu/security/pam_unix.so
+/lib/x86_64-linux-gnu/security/pam_deny.so
+/lib/x86_64-linux-gnu/security/pam_permit.so
+/lib/x86_64-linux-gnu/security/pam_cap.so
+/lib/x86_64-linux-gnu/security/pam_umask.so
+/lib/x86_64-linux-gnu/security/pam_cgfs.so

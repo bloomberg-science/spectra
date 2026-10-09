@@ -1,0 +1,53 @@
+# Large directories not needed in Docker image
+testsuite/binaries/
+testsuite/bde/
+testsuite/bde-tools/
+testsuite/gcc/
+testsuite/gcc-coverage/
+testsuite/redhat/
+testsuite/apache-httpd/
+
+testsuite/apache/
+testsuite/subset_binaries/
+testsuite/testlibs/
+testsuite/testdata/external_libs/
+testsuite/testdata/angr/
+testsuite/testdata/safer_*/
+bin_analysis_tools/ghidra_projects/ghidra/
+
+# Local credentials and machine-specific files (never ship in the image)
+id_rsa
+known_hosts
+*.pem
+*.key
+
+# Local outputs, backups, images
+backups/
+eval_results/
+testcase_res
+spectra_image.tar*
+*.log
+bin_analysis_tools/**/*.log
+**/*.swp
+testsuite/testdata/**/*.bkp
+
+# Build artifacts and caches
+analysisenv/
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Git (top-level and submodules)
+.git/
+.gitignore
+.gitmodules
+**/.git
+**/.gitignore
+**/.gitmodules
+
+# Docs not needed at runtime
+testsuite/TESTING_GUIDE.md
+testsuite/BUILD_WITH_COVERAGE.md
+testsuite/CLEANUP_REPORT.md
+testsuite/ADDITIONAL_FIXES.md
+testsuite/TEST_STATS_FIX.md

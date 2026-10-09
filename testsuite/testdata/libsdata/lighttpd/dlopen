@@ -1,0 +1,10 @@
+lighttpd/src/.libs/mod_accesslog.so
+lighttpd/src/.libs/mod_h2.so
+lighttpd/src/.libs/mod_auth.so
+lighttpd/src/.libs/mod_authn_file.so
+lighttpd/src/.libs/mod_extforward.so
+lighttpd/src/.libs/mod_cgi.so
+lighttpd/src/.libs/mod_status.so
+lighttpd/src/.libs/mod_deflate.so
+lighttpd/src/.libs/mod_dirlisting.so
+lighttpd/src/.libs/mod_proxy.so

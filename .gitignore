@@ -1,0 +1,44 @@
+*.pyc
+__pycache__/
+
+# Local credentials (never commit)
+/id_rsa
+/known_hosts
+/certs/
+*.pem
+*.key
+
+# Python environment
+/analysisenv/
+
+# Local outputs, backups, images, editor files
+/backups/
+/eval_results/
+/testcase_res
+/hardened_binaries/
+/spectra_image.tar*
+/*.log
+/bin_analysis_tools/**/*.log
+*.swp
+*.bkp
+*.old
+
+# Installed / downloaded tools
+/bin_analysis_tools/ghidra_projects/ghidra/
+
+# Generated testsuite content (built packages, extracted binaries, analysis results)
+/testsuite/apache/
+/testsuite/apache-httpd/
+/testsuite/bde/
+/testsuite/bde-tools/
+/testsuite/binaries/
+/testsuite/gcc/
+/testsuite/gcc-coverage/
+/testsuite/redhat/
+/testsuite/subset_binaries/
+/testsuite/testlibs/
+/testsuite/coverage_table.tex
+/testsuite/.gitmodules
+/testsuite/testdata/angr/
+/testsuite/testdata/external_libs/
+/testsuite/testdata/safer_*/

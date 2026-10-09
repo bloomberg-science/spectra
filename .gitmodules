@@ -1,0 +1,33 @@
+[submodule "testsuite/bind"]
+	path = testsuite/bind
+	url = https://github.com/isc-projects/bind9.git
+[submodule "testsuite/postgresql"]
+	path = testsuite/postgresql
+	url = https://github.com/postgres/postgres.git
+[submodule "testsuite/redis"]
+	path = testsuite/redis
+	url = https://github.com/redis/redis.git
+[submodule "testsuite/proftpd"]
+	path = testsuite/proftpd
+	url = https://github.com/proftpd/proftpd.git
+[submodule "testsuite/lighttpd"]
+	path = testsuite/lighttpd
+	url = https://github.com/lighttpd/lighttpd1.4.git
+[submodule "testsuite/mysql"]
+	path = testsuite/mysql
+	url = https://github.com/mysql/mysql-server.git
+[submodule "testsuite/bmq"]
+	path = testsuite/bmq
+	url = https://github.com/bloomberg/blazingmq.git
+[submodule "testsuite/comdb2"]
+	path = testsuite/comdb2
+	url = https://github.com/bloomberg/comdb2.git
+[submodule "testsuite/nginx"]
+	path = testsuite/nginx
+	url = https://github.com/nginx/nginx.git
+[submodule "testsuite/memcached"]
+	path = testsuite/memcached
+	url = https://github.com/memcached/memcached.git
+[submodule "bin_analysis_tools/safer"]
+	path = bin_analysis_tools/safer
+	url = https://github.com/sam41290/SAFER

@@ -1,0 +1,1073 @@
+rm -rf comdb2/tests/test_34194/sirace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cldeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/truncatesc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/socksqlmasterswings34194/tmp/import*
+rm -rf comdb2/tests/test_34194/maxtable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/systablelocking34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifywrites34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scforce34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdowngrade34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rebuildtableoptions34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptiered34194/tmp/import*
+rm -rf comdb2/tests/test_34194/odhblobs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/lostwrite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incrementalcopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incrementalbackupusenames34194/incrementalbackupusenames34194.tmpdbs/import*
+rm -rf comdb2/tests/test_34194/incrementalbackup34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sicomplex34194/tmp/import*
+rm -rf comdb2/tests/test_34194/truncatescofflinegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptierednosourcegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptieredfirstfilegenerated34194/tmp/import*
+mkdir -p comdb2/tests/test_34194/truncatesc34194/reptruncatesc34194/reptruncatesc34194.txn
+mkdir -p comdb2/tests/test_34194/truncatesc34194/reptruncatesc34194/logs
+comdb2/build/db/comdb2 reptruncatesc34194 -lrl comdb2/tests/test_34194/truncatesc34194/reptruncatesc34194/reptruncatesc34194.lrl -fullrecovery -recovery_lsn 1:714834
+rm -rf comdb2/tests/test_34194/truncatesc34194/reptruncatesc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptiered34194/phys_rep_tiered_META/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptierednosourcegenerated34194/phys_rep_tiered_nosource_generated_META/tmp/import*
+rm -rf comdb2/tests/test_34194/physreptieredfirstfilegenerated34194/phys_rep_tiered_firstfile_generated_META/tmp/import*
+mkdir -p comdb2/tests/test_34194/truncatescofflinegenerated34194/reptruncatescofflinegenerated34194/reptruncatescofflinegenerated34194.txn
+mkdir -p comdb2/tests/test_34194/truncatescofflinegenerated34194/reptruncatescofflinegenerated34194/logs
+comdb2/build/db/comdb2 reptruncatescofflinegenerated34194 -lrl comdb2/tests/test_34194/truncatescofflinegenerated34194/reptruncatescofflinegenerated34194/reptruncatescofflinegenerated34194.lrl -fullrecovery -recovery_lsn 1:714834
+rm -rf comdb2/tests/test_34194/truncatescofflinegenerated34194/reptruncatescofflinegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sirandtest34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sicountbug234194/tmp/import*
+rm -rf comdb2/tests/test_34194/sicountbug34194/tmp/import*
+rm -rf comdb2/tests/test_34194/serialrandtest234194/tmp/import*
+rm -rf comdb2/tests/test_34194/scindexlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scindex34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scconstraintslogicalscgenerated34194/tmp/import*
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/incrementalbackupusenames34194.llmeta.dta >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000030000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat1_0000000000040000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000070000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/sqlite_stat4_0000000000080000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/incrementalbackupusenames34194.metadata.dta >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000120000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000130000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000140000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000150000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000160000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000170000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000180000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_0000000000190000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/load_00000000001a0000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e20000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e30000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_0000000036e40000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/comdb2_llmeta.dta >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000030000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat1_0000000000040000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000070000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/sqlite_stat4_0000000000080000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/comdb2_metadata.dta >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000120000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000130000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000140000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000150000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000160000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000170000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000180000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_0000000000190000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/load_00000000001a0000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e60000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e70000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_0000000036e80000.index >&2
+rm -rf comdb2/tests/test_34194/scconstraints34194/tmp/import*
+rm -rf comdb2/tests/test_34194/newsitemptables34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logfilllogputwindowgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logfill34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ixentryorder34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incoherentslow34194/tmp/import*
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1140000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000000b1150000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1200000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000000b1210000.index >&2
+rm -rf comdb2/tests/test_34194/dohsqlleaks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/r1disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/r2disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/r3disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/r4disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2disttxn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/updaterlatency34194/tmp/import*
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c060000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_000000012c070000.index >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1c0000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_000000012c1d0000.index >&2
+rm -rf comdb2/tests/test_34194/timepartretention134194/tmp/import*
+mkdir -p comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore/incrementalbackupusenames34194.txn
+mkdir -p comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore/logs
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 3:5060
+rm -rf comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore/incrementalbackupusenames34194.tmpdbs/import*
+rm -rf comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore/incrementalbackupusenames34194_restore.tmpdbs/import*
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 4:20658636
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 7:18076
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 9:5060
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 11:5060
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 13:14492
+mkdir -p comdb2/tests/test_34194/tmp/incrementalbackup34194/restore/incrementalbackup34194.txn
+mkdir -p comdb2/tests/test_34194/tmp/incrementalbackup34194/restore/logs
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 3:5060
+rm -rf comdb2/tests/test_34194/tmp/incrementalbackup34194/restore/tmp/import*
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 5:2396
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 15:2700
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 7:5060
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 9:2396
+rm -rf comdb2/tests/test_34194/simpletimepartreptimeoutgenerated34194/tmp/import*
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 11:2800
+rm -rf comdb2/tests/test_34194/simpletimepart34194/tmp/import*
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 13:148
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 15:5060
+rm -rf comdb2/tests/test_34194/sidupidx334194/tmp/import*
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4820000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4830000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackupusenames34194/t1_00000001e4840000.index >&2
+rm -rf comdb2/tests/test_34194/sicomplex334194/tmp/import*
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49b0000.datas0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs7 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs6 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs5 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs4 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs3 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs2 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs1 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49c0000.blobs0 >&2
+ls -l comdb2/tests/test_34194/incrementalbackup34194/t1_00000001e49d0000.index >&2
+comdb2/build/db/comdb2 incrementalbackupusenames34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackupusenames34194/restore//incrementalbackupusenames34194.lrl -fullrecovery -recovery_lsn 30:5060
+rm -rf comdb2/tests/test_34194/selectvdeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctimepartmultiddlgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctimepartlogicalscgenerated34194/tmp/import*
+comdb2/build/db/comdb2 incrementalbackup34194 -lrl comdb2/tests/test_34194/tmp/incrementalbackup34194/restore//incrementalbackup34194.lrl -fullrecovery -recovery_lsn 30:2396
+rm -rf comdb2/tests/test_34194/sctimepart34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scresumelogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scresume34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scinsertsdeletespartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scinsertsdeleteslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scinsertsdeletes34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scfieldlargerlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scfieldlarger34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdrop34194/tmp/import*
+rm -rf comdb2/tests/test_34194/randomosqlreplay34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuedbrollovernoroll1generated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuedbrollover34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pgfreerecovery34194/tmp/import*
+rm -rf comdb2/tests/test_34194/newsqlreplay34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dohsqlrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzefastinitrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/screpeatedupdateslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/screpeatedupdates34194/tmp/import*
+rm -rf comdb2/tests/test_34194/restartnode34194/tmp/import*
+rm -rf comdb2/tests/test_34194/epochmsrollover34194/tmp/import*
+rm -rf comdb2/tests/test_34194/deadlockloadnoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/deadlockload34194/tmp/import*
+rm -rf comdb2/tests/test_34194/updcolsbug34194/tmp/import*
+rm -rf comdb2/tests/test_34194/yaststat4scangenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/unionparmaxqueue34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartchangeretention34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartauth34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ttsz34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sirandtest234194/tmp/import*
+rm -rf comdb2/tests/test_34194/silogdel34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scversmismatchlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scversmismatch34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctruncatemultiddlgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctruncatelockordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctruncate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scswapfieldslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scswapfields34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scredostep34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scredologicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scredo34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scpartialdatacopylogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scpartialdatacopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sclotsoftableslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sclotsoftables34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scinsertslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scinserts34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdatacopylogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdatacopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scblobupdatelogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scblobupdate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/restartsocksql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/replayhistory34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recovertolsn34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recoverdeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recomreplay34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reco-ddlk-sql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/printlog34194/tmp/import*
+rm -rf comdb2/tests/test_34194/prepare34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrepignoretable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pglogsseqnum34194/tmp/import*
+rm -rf comdb2/tests/test_34194/osqlcleanup34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nogensc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nogenscusegengenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nogenfullrecoveryrolloutgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nogenfullrecoveryenableddowngradegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nogenfullrecovery34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrepignoretable34194/physrep_ignore_tabledest34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logreqlockdesired34194/tmp/import*
+rm -rf comdb2/tests/test_34194/lockstack34194/tmp/import*
+rm -rf comdb2/tests/test_34194/lockviews34194/tmp/import*
+rm -rf comdb2/tests/test_34194/lockmaxid34194/tmp/import*
+rm -rf comdb2/tests/test_34194/limitsortingtbl34194/tmp/import*
+rm -rf comdb2/tests/test_34194/leakcheck34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ixmap34194/tmp/import*
+rm -rf comdb2/tests/test_34194/insertlotssslgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/insertlotslargetrangenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/insertlots34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incohremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbincohremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incohremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbincohremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/genid48snapisol34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbcomparerteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rmtfdbcomparerteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbcompare34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rmtfdbcompare34194/tmp/import*
+rm -rf comdb2/tests/test_34194/electbug34194/tmp/import*
+rm -rf comdb2/tests/test_34194/commitdelayoncopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/catchup34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blkseqsnapisogenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blkseqrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blkseqnocnoncegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blkseq34194/tmp/import*
+rm -rf comdb2/tests/test_34194/autoanalyze34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzerecoverdeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzepartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzeexitimmediately34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyze34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifyupgrade34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddfieldlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddfield34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logtrigger34194/tmp/import*
+rm -rf comdb2/tests/test_34194/downgradeloop34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sclockinversion34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nightmarerecovery34194/tmp/import*
+rm -rf comdb2/tests/test_34194/multithd34194/tmp/import*
+rm -rf comdb2/tests/test_34194/idxexpralltypes34194/tmp/import*
+rm -rf comdb2/tests/test_34194/guid34194/tmp/import*
+rm -rf comdb2/tests/test_34194/delfileblockreproleakgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/delfileblock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/renametablelightweightgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/renametable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2sysqueueodhgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2syspagesizegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2sys34194/tmp/import*
+rm -rf comdb2/tests/test_34194/updatedatetime34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ufidreopen34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ufidrecovery34194/tmp/import*
+rm -rf comdb2/tests/test_34194/udf34194/tmp/import*
+rm -rf comdb2/tests/test_34194/triggersclatency34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tpcrash34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblstarve34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblleakzeropoolgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblleakstarvegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblleakmegapoolgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblleakbigpoolgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptblleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptbldeadlockzeropoolgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptbldeadlockstarvegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptbldeadlockbigpoolgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptbldeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timeparttruncserialscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timeparttruncmultiddlgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timeparttrunc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartreadonly34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartfrgncnst34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartevents34194/tmp/import*
+rm -rf comdb2/tests/test_34194/timepartconstraints34194/tmp/import*
+rm -rf comdb2/tests/test_34194/temptabletruncateleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/temptablecursorleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tablelocks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/systblprocleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/syncosqlcancel34194/tmp/import*
+rm -rf comdb2/tests/test_34194/strictdblquotes34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslsan34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqlfuncmemleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqldumprace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqldatetimeintervalarithmeticleak34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sptwofilesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sptimeout34194/tmp/import*
+rm -rf comdb2/tests/test_34194/spsqltran34194/tmp/import*
+rm -rf comdb2/tests/test_34194/spsnapshotgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/spqueueodhgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/splongreqs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sp34194/tmp/import*
+rm -rf comdb2/tests/test_34194/smartbeats34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simplessl34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siasofbounce34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siasof34194/tmp/import*
+rm -rf comdb2/tests/test_34194/serialstep34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvtimepart34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrecomrange34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrecom34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrcodeserialretrygenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrcodeserializereadslikewritesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrcodeforcecommitgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrcodedisablesvonlynopgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrcode34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvrange34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectvpartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectv34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scupdateslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scupdates34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scindexdeadlocklogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scindexdeadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/schemalklogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/schemalk34194/tmp/import*
+rm -rf comdb2/tests/test_34194/schemalkextralockgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8validateoffosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8validate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8blob2updbehindcursor34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scupsert34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctableversionlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctableversion34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scresume234194/tmp/import*
+rm -rf comdb2/tests/test_34194/screbuildslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/screbuildsextralockgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/screbuilds34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scparallellogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scparallel34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scnewuniqlogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scnewuniq34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdupslogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdups34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scddlbackoutrowlocksgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scddlbackout34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdbstorefunc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdbstorefunc34194/badscdbstorefunc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdbstorefunc34194/goodscdbstorefunc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rulesetnofpgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ruleset34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rowlockupdate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reqlognetwait34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reqlogfingerprints34194/tmp/import*
+rm -rf comdb2/tests/test_34194/repopulatequeuestwofilesgenerated34194/repopulatequeuestwofilesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/repopulatequeues34194/repopulatequeues34194/tmp/import*
+rm -rf comdb2/tests/test_34194/replayeventlog34194/tmp/import*
+rm -rf comdb2/tests/test_34194/secondreplayeventlog34194/tmp/import*
+rm -rf comdb2/tests/test_34194/replstats34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recoverypages34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rawindex34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuedbmultimeta34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuedblocks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuescanlimit34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queuedepth34194/tmp/import*
+rm -rf comdb2/tests/test_34194/protobuftofd34194/tmp/import*
+rm -rf comdb2/tests/test_34194/prefixforeignkeysrevnonullfkeygenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/prefixforeignkeysrev34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pmuxsecureroute34194/tmp/import*
+rm -rf comdb2/tests/test_34194/perfectckp34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pmuxsecure/tmp/import*
+rm -rf comdb2/tests/test_34194/osqlnetqueuefull34194/tmp/import*
+rm -rf comdb2/tests/test_34194/opmakerecord34194/tmp/import*
+rm -rf comdb2/tests/test_34194/onconflict34194/tmp/import*
+rm -rf comdb2/tests/test_34194/oflowaddrem34194/tmp/import*
+rm -rf comdb2/tests/test_34194/occselectv34194/tmp/import*
+rm -rf comdb2/tests/test_34194/objpool34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nowritetimeout34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nextsequencenullsorthighgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nextsequence34194/tmp/import*
+rm -rf comdb2/tests/test_34194/newsionmaster34194/tmp/import*
+rm -rf comdb2/tests/test_34194/netmem34194/tmp/import*
+rm -rf comdb2/tests/test_34194/memprotobuf34194/tmp/import*
+rm -rf comdb2/tests/test_34194/mallocresize34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logdelete34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logdeletesnapshotgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logarchive34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadcache34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadcacheautocachegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/lkmgr34194/tmp/import*
+rm -rf comdb2/tests/test_34194/largecsc234194/tmp/import*
+rm -rf comdb2/tests/test_34194/keycompr34194/tmp/import*
+rm -rf comdb2/tests/test_34194/jsonify34194/tmp/import*
+rm -rf comdb2/tests/test_34194/interval34194/tmp/import*
+rm -rf comdb2/tests/test_34194/instantsclogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/instantsc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/initscrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/graceperiodonexit34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fingerprints34194/tmp/import*
+rm -rf comdb2/tests/test_34194/enospc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/earlyverify34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dupewrite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/droptblnum34194/tmp/import*
+rm -rf comdb2/tests/test_34194/diskspacenollmetanostripegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/diskspacenollmeta34194/tmp/import*
+rm -rf comdb2/tests/test_34194/deadlockpolicy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/deadlock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dbregrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dbregraceufidongenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/datetimemifid234194/tmp/import*
+mkdir -p comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194
+mkdir -p comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194.txn
+mkdir -p comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194/logs
+comdb2/build/db/comdb2 reploadcachedumpmaxgenerated34194 -lrl comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194.lrl -fullrecovery -recovery_lsn 8:17022633
+rm -rf comdb2/tests/test_34194/loadcachedumpmaxgenerated34194/reploadcachedumpmaxgenerated34194/tmp/import*
+mkdir -p comdb2/tests/test_34194/loadcacheautocachegenerated34194/reploadcacheautocachegenerated34194
+mkdir -p comdb2/tests/test_34194/loadcacheautocachegenerated34194/reploadcacheautocachegenerated34194/reploadcacheautocachegenerated34194.txn
+mkdir -p comdb2/tests/test_34194/loadcacheautocachegenerated34194/reploadcacheautocachegenerated34194/logs
+mkdir -p comdb2/tests/test_34194/loadcache34194/reploadcache34194
+mkdir -p comdb2/tests/test_34194/loadcache34194/reploadcache34194/reploadcache34194.txn
+mkdir -p comdb2/tests/test_34194/loadcache34194/reploadcache34194/logs
+rm -rf comdb2/tests/test_34194/csvcopy34194/tmp/import*
+comdb2/build/db/comdb2 reploadcacheautocachegenerated34194 -lrl comdb2/tests/test_34194/loadcacheautocachegenerated34194/reploadcacheautocachegenerated34194/reploadcacheautocachegenerated34194.lrl -fullrecovery -recovery_lsn 8:17022633
+rm -rf comdb2/tests/test_34194/loadcacheautocachegenerated34194/reploadcacheautocachegenerated34194/tmp/import*
+comdb2/build/db/comdb2 reploadcache34194 -lrl comdb2/tests/test_34194/loadcache34194/reploadcache34194/reploadcache34194.lrl -fullrecovery -recovery_lsn 8:17022633
+rm -rf comdb2/tests/test_34194/loadcache34194/reploadcache34194/tmp/import*
+rm -rf comdb2/tests/test_34194/copyschematimepart34194/tmp/import*
+rm -rf comdb2/tests/test_34194/constraintspartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/constraintsnoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/constraints34194/tmp/import*
+rm -rf comdb2/tests/test_34194/concurrentsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/commitlsnmapdeletegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/commitlsnmap34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2sysschistory34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2oplogpreserveseqno34194/tmp/import*
+mkdir -p comdb2/tests/test_34194/srcdbcopyschematimepart34194
+mkdir -p comdb2/tests/test_34194/srcdbcopyschematimepart34194/copyschematimepart34194.txn
+mkdir -p comdb2/tests/test_34194/srcdbcopyschematimepart34194/logs
+rm -rf comdb2/tests/test_34194/srcdbcopyschematimepart34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2files34194/tmp/import*
+rm -rf comdb2/tests/test_34194/clientstatsleaks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/chunktxneffects34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2apirollbackrc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2apiretry34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2apirandomroomdr134194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2api2pc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2coltype34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bulkimport34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bulkimportmismatcheddtastripegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bulkimportmismatchedblobstripegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bplogleaks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bplogleakssockbploggenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/backuplogfiles34194/tmp/import*
+rm -rf comdb2/tests/test_34194/authcleanup34194/tmp/import*
+rm -rf comdb2/tests/test_34194/authtwofilesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/authqueueodhgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbbulkimport34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbbulkimportmismatcheddtastripegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbbulkimportmismatchedblobstripegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/auth34194/tmp/import*
+rm -rf comdb2/tests/test_34194/apievents34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzesample34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzeexit34194/tmp/import*
+rm -rf comdb2/tests/test_34194/allowincoherentsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sicomplex234194/tmp/import*
+rm -rf comdb2/tests/test_34194/rtcpudrtest34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlpartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnamesrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnamespartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnamesnegativerowidgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnamesfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnamesfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlpartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlnames34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnamesrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnamespartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnamesfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnamesnegativerowidgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnamesfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlnames34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/watchdogsql34194/watchdogsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/writesremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/vutf8rowlocksoffosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbwritesremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/vutf8rowlocks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifyindexdata34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifyerrorpartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifyerror34194/tmp/import*
+rm -rf comdb2/tests/test_34194/utxnid34194/tmp/import*
+rm -rf comdb2/tests/test_34194/userschema34194/tmp/import*
+rm -rf comdb2/tests/test_34194/userschemaqueueodhgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/upsert34194/tmp/import*
+rm -rf comdb2/tests/test_34194/typessql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/truncstat34194/tmp/import*
+rm -rf comdb2/tests/test_34194/transchunktablelocks34194/tmp/import*
+rm -rf comdb2/tests/test_34194/transchunkmanyins34194/tmp/import*
+rm -rf comdb2/tests/test_34194/transchunk34194/tmp/import*
+rm -rf comdb2/tests/test_34194/trans34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tmptbl34194/tmp/import*
+rm -rf comdb2/tests/test_34194/syscmdaccess34194/tmp/import*
+rm -rf comdb2/tests/test_34194/supersetforeignkeys34194/tmp/import*
+rm -rf comdb2/tests/test_34194/str2intv34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsslremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsslremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqlitebugs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqlite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsslremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsslremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/soresetran34194/tmp/import*
+rm -rf comdb2/tests/test_34194/socksql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sockpoolremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sockpoolremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sockpoolremsqlfdbpushgenerated34194/tmp/import*
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000001 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000001
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000002 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000002
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000003 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000003
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000004 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000004
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000005 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000005
+rm -rf comdb2/tests/test_34194/srcdbsockpoolremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsockpoolremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sockpoolremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsockpoolremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapisolpartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapisolnoearlygenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsockpoolremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapisol34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapharetry34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siasofupdate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/schemaversions34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8blob2offosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8blob234194/tmp/import*
+rm -rf comdb2/tests/test_34194/scvutf8blob2logicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctransactionalrowlocksgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctransactionallogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sctransactional34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scracetimepart34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scmultitable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scconstraintbugs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddcolumnremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddcolumnremsqllogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddcolumnremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscaddcolumnremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscaddcolumnremsqllogicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscaddcolumnremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddcolumnremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddcolumnremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reqloglogbyte34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscaddcolumnremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/replogwrite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbscaddcolumnremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderupdatesnoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderupdates34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderinsertsnoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderinserts34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderdeletes34194/tmp/import*
+rm -rf comdb2/tests/test_34194/reorderdeletesnoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remsqlfdbpushgenerated34194/tmp/import*
+mv comdb2/tests/test_34194/backuplogfiles34194/logs/log.0000000006 comdb2/tests/test_34194/backup_logs_backuplogfiles34194/log.0000000006
+rm -rf comdb2/tests/test_34194/srcdbremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recnum34194/tmp/import*
+rm -rf comdb2/tests/test_34194/readcommitted34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ptranfailsocksql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/protobufconnectmsgmix34194/tmp/import*
+rm -rf comdb2/tests/test_34194/protobufconnectmsgdbnamecheck34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrepviacomdb2filesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrep34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrepviacomdb2filesgenerated34194/phys_rep_via_comdb2_files_generateddest34194/physrepviacomdb2filesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/partialdatacopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/physrep34194/phys_repdest34194/physrep34194/tmp/import*
+rm -rf comdb2/tests/test_34194/parserdiagnose34194/tmp/import*
+rm -rf comdb2/tests/test_34194/parenttranfail34194/tmp/import*
+rm -rf comdb2/tests/test_34194/outofrangequeries34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nophyswritedontignoregenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nophyswrite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/multichunk34194/tmp/import*
+rm -rf comdb2/tests/test_34194/morestripe34194/tmp/import*
+rm -rf comdb2/tests/test_34194/misstableremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/misstableremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nophyswritedontignoregenerated34194/repnophyswritedontignoregenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nophyswrite34194/repnophyswrite34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmisstableremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmisstableremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/manualpartitionlgcy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/manualpartition34194/tmp/import*
+rm -rf comdb2/tests/test_34194/longreqstats34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/loadremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbloadremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbloadremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/insertmaxindex34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbloadremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbloadremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/incoherentsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/growlogregion34194/tmp/import*
+rm -rf comdb2/tests/test_34194/forcewritesqlfailwritegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/forcewritesql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbpushrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbfdbpushrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remdb2fdbpushrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbpush34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remdb2fdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbfdbpush34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbcompatrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fdbcompat34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remdb2fdbpush34194/tmp/import*
+rm -rf comdb2/tests/test_34194/eventlog34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sfdbcompatrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sfdbcompat34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dropaddtable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dohsqlpack34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ddlnocsc234194/tmp/import*
+rm -rf comdb2/tests/test_34194/ddlnocascadedrop34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ddlcsc234194/tmp/import*
+rm -rf comdb2/tests/test_34194/ddlanalyze34194/tmp/import*
+rm -rf comdb2/tests/test_34194/datetimeusec34194/tmp/import*
+rm -rf comdb2/tests/test_34194/comdb2expert34194/tmp/import*
+rm -rf comdb2/tests/test_34194/columnnameslength34194/tmp/import*
+rm -rf comdb2/tests/test_34194/checkconstr34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2sqloptions34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2sqlqueueodhgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2sql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2open34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2close34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2admin34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blobsizelimit34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blob234194/tmp/import*
+rm -rf comdb2/tests/test_34194/baddbremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/baddbremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/analyzeinsertburst34194/tmp/import*
+rm -rf comdb2/tests/test_34194/unionparallel34194/tmp/import*
+rm -rf comdb2/tests/test_34194/twopcremotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/synclogdeleteoffreenable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/svctimeperclnt34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslcomdb2ar34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s1twopcremotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsqlwhitelistgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s2twopcremotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsqlrteconnectgenerated34194/tmp/import*
+mkdir -p comdb2/tests/test_34194/ssl_comdb2ar.test/backup/sslcomdb2ar34194.txn
+mkdir -p comdb2/tests/test_34194/ssl_comdb2ar.test/backup/logs
+comdb2/build/db/comdb2 sslcomdb2ar34194 -lrl comdb2/tests/test_34194/ssl_comdb2ar.test/backup/sslcomdb2ar34194.lrl -fullrecovery -recovery_lsn 1:713746
+rm -rf comdb2/tests/test_34194/ssl_comdb2ar.test/backup/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsqlwhitelistgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s3twopcremotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/simpleremsqlcdb2apigenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scdescidx34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbsimpleremsqlcdb2apigenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/repblocker34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s1remotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/qgetcurtran34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s2remotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/s3remotecreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/permitdowngrade34194/tmp/import*
+rm -rf comdb2/tests/test_34194/mismatchclassremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/mismatchclassremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmismatchclassremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmismatchclassremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/mismatchclassremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/mismatchclassremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/maxwrrows34194/tmp/import*
+rm -rf comdb2/tests/test_34194/maxwrrowspartialindexoffgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/logicalops34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmismatchclassremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ioerrorremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ioerrorremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbmismatchclassremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbioerrorremsqlrteconnectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbioerrorremsqlfdbpushredirectgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ioerrorremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ioerrorremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbioerrorremsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/srcdbioerrorremsqlfdbpushgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/forbidremoterepopnewlrl34194/tmp/import*
+rm -rf comdb2/tests/test_34194/downgrade34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dohsqloverload34194/tmp/import*
+rm -rf comdb2/tests/test_34194/decimalnew34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cost34194/tmp/import*
+rm -rf comdb2/tests/test_34194/consumer34194/tmp/import*
+rm -rf comdb2/tests/test_34194/consumernonatomicdefaultconsumergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicsslnoprotogenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicsslgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicsnapshotgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicsinglenodegenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicrowsetgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicrowlocksgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicprotobufconnectmsggenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicoffosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basicnogenid48generated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/basic34194/tmp/import*
+rm -rf comdb2/tests/test_34194/appsock34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_1/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_2/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_3/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_4/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_5/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_6/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_7/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_9/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_8/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_10/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_memory_generated.test/pmuxtestdb_19600_10/tmp/import*
+rm -rf comdb2/tests/test_34194/window34194/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_1/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_2/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_3/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_4/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_5/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_6/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_7/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_8/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_9/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_10/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux.test/pmuxtestdb_19700_10/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_1/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_2/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_3/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_4/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_5/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_6/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_7/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_8/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_9/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_10/tmp/import*
+rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_10/tmp/import*rm -rf comdb2/tests/test_34194/pmux_sqlite_file_generated.test/pmuxtestdb_19500_10/tmp/import*
+rm -rf comdb2/tests/test_34194/vutf8dbstoreoffosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/vutf8dbstore34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifydbparallelgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/verifydb34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ulonglong34194/tmp/import*
+rm -rf comdb2/tests/test_34194/txnqueuing34194/tmp/import*
+rm -rf comdb2/tests/test_34194/tunables34194/tmp/import*
+rm -rf comdb2/tests/test_34194/triggerlockinversion34194/tmp/import*
+rm -rf comdb2/tests/test_34194/trigger34194/tmp/import*
+rm -rf comdb2/tests/test_34194/trangrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/temptable-truncate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rrdb34194/tmp/import*
+rm -rf comdb2/tests/test_34194/stringrefs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ssluserschema34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslsetcmd34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslrep34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslprefernosslgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslprefer34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ssldbname34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sslcrl34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sqlcost34194/tmp/import*
+rm -rf comdb2/tests/test_34194/sortertmpdirrace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapshotduringtruncate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapbloboffosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/snapblob34194/tmp/import*
+rm -rf comdb2/tests/test_34194/skipscan34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfigoriggenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfigorigafternewsigenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfignewsigenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfigmodsnapgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfigdisablenewsigenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/siconfig34194/tmp/import*
+rm -rf comdb2/tests/test_34194/selectone34194/tmp/import*
+rm -rf comdb2/tests/test_34194/seekscan34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scloadcacherace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddvutf8offosqlodhblobgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddvutf8logicalscgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/scaddvutf834194/tmp/import*
+rm -rf comdb2/tests/test_34194/replaytrans34194/tmp/import*
+rm -rf comdb2/tests/test_34194/rem34194/tmp/import*
+rm -rf comdb2/tests/test_34194/recoverddlksp34194/tmp/import*
+rm -rf comdb2/tests/test_34194/readonly34194/tmp/import*
+rm -rf comdb2/tests/test_34194/readintransresults34194/tmp/import*
+rm -rf comdb2/tests/test_34194/readcommittedunique34194/tmp/import*
+rm -rf comdb2/tests/test_34194/queueingsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/qcopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/putlogicalcron34194/tmp/import*
+rm -rf comdb2/tests/test_34194/onepassdeleteupdate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nodeadlocktablenoreordergenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/qcopy34194/copy/tmp/import*
+rm -rf comdb2/tests/test_34194/nodeadlocktablemanystripesgenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/nodeadlocktable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/memtracker34194/tmp/import*
+rm -rf comdb2/tests/test_34194/membenice34194/tmp/import*
+rm -rf comdb2/tests/test_34194/longdbname34194379c6be343f80820cbe477517cb20039a754b9730596d4d6/tmp/import*
+rm -rf comdb2/tests/test_34194/logicalscemptyblob34194/tmp/import*
+rm -rf comdb2/tests/test_34194/largeindex34194/tmp/import*
+rm -rf comdb2/tests/test_34194/intervalds34194/tmp/import*
+rm -rf comdb2/tests/test_34194/indexdeadlockloopprint34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ignorebadtable34194/tmp/import*
+rm -rf comdb2/tests/test_34194/genid4834194/tmp/import*
+rm -rf comdb2/tests/test_34194/func34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fldvercache34194/tmp/import*
+rm -rf comdb2/tests/test_34194/fileperms34194/tmp/import*
+rm -rf comdb2/tests/test_34194/explain34194/tmp/import*
+rm -rf comdb2/tests/test_34194/emittimeout34194/tmp/import*
+rm -rf comdb2/tests/test_34194/electbug234194/tmp/import*
+rm -rf comdb2/tests/test_34194/dohsqlclntflags34194/tmp/import*
+rm -rf comdb2/tests/test_34194/decimal34194/tmp/import*
+rm -rf comdb2/tests/test_34194/ddldryrun34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dbinfolegacy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/dbcreate34194/tmp/import*
+rm -rf comdb2/tests/test_34194/datetime34194/tmp/import*
+rm -rf comdb2/tests/test_34194/datacopy34194/tmp/import*
+rm -rf comdb2/tests/test_34194/curmoves34194/tmp/import*
+rm -rf comdb2/tests/test_34194/curmovessockbploggenerated34194/tmp/import*
+rm -rf comdb2/tests/test_34194/closeoldconnections34194/tmp/import*
+rm -rf comdb2/tests/test_34194/clntlogdeltoggle34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2sqlauth34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2dump34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2bind34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2apiso34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cdb2api34194/tmp/import*
+rm -rf comdb2/tests/test_34194/cancelsql34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bulkoverflow34194/tmp/import*
+rm -rf comdb2/tests/test_34194/bloballoc34194/tmp/import*
+rm -rf comdb2/tests/test_34194/blobsanity34194/tmp/import*
+rm -rf comdb2/tests/test_34194/biginplace34194/tmp/import*
+rm -rf comdb2/tests/test_34194/authdba34194/tmp/import*
+rm -rf comdb2/tests/test_34194/apidllibs34194/tmp/import*
+rm -rf comdb2/tests/test_34194/alias34194/tmp/import*
+rm -rf comdb2/tests/test_34194/remdbalias34194/tmp/import*
